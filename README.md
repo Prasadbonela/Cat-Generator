@@ -16,8 +16,7 @@ Please, implement methods in the [CatGenerator](src/main/java/com/epam/autotasks
 
 <mark style="background-color: lightblue">Notes about the _generateFood_ method</mark>
 
-1. You have a family of cats: kittens, "teenage" cats, and parents. Parents eat twice as much as "teenagers", who eat
-   twice as much as kittens. Calculate how much food you need to feed this cat family.
+1. You have a family of cats, where each cat eat twice as mush as a previous one. Calculate how much food you need to feed this cat family.
 2. If then younger cats have already gotten their food, their portions should be excluded from the calculation.
 3. Please throw IllegalArgumentException, when the _familySize_ and/or _skip_ values are negative.
    The exception message should be _"Input arguments cannot be negative"_.
